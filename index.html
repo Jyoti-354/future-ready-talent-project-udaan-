@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Udaan (online education website)
+  </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  
+<body>
+
+  <!-- header section starts -->
+  <div class="top-header">
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="/media\udaan.jpeg" alt="" class="logo-img">
+        </div>
+
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Course">Course</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'"style="width:auto;">Login</button></li>
+        </ul>
+
+      </nav>
+    </header>
+  </div>
+   <!-- header section ends    -->
+      
+  <!-- login form     -->
+  <div id="login-form" class="login-page">
+    <div class="form-box">
+      <div class='button-box'>
+       <div id="btn"></div>
+       <button type='button'onclick='login()'class='toggle-btn'>Login</button>
+       </div>
+        <form id='login' class='input-group-login'>
+          <input type='text'class='input-field'placeholder='Email Id'required>
+          <input type='password'class='input-field'placeholder='Enter password'required>
+          <input type='checkbox' class='checkbox'>
+          <span>Remember Password</span>
+          <button type='submit'class='submit-btn'>Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+ <!-- <home section starts>>       -->
+   <div class="Home" id="Home">
+     <h1>An educated mind can teach many</h1> 
+     <p>"You Can Make Your Future Bright Using Our Website"</p>
+     <a href="#"><button class="btn">Get started</button></a>
+
+   </div>
+
+   <!-- home section ends  -->
+
+   <!-- About section starts -->
+     <h1>About Us</h1>
+     <div class="About" id="About">
+       <div class="image">  
+         <img src="media/about.jpeg" alt="">
+        </div>
+        
+        <div class="content">
+          <p>Teaching is one of the most challenging and complex job. Our digital resources is helpful for the student as well as who are interested in programming langauges or any IT related skill.We are providing highly demanded IT related skills and programming languages in affordable price.The ease of learning anywhere and everywhere."You Can Make Your Future Bright Using Our Website". </p>
+          <a href="#"><button class="btn">Read more</button></a>
+        </div>
+      </div>
+    
+      <!-- about section ends  -->
+
+          
+   <!-- courses section starts  -->
+   <div class="Course" id="Course"> 
+   <div class="course-top">
+    <div class="online-title">
+      <h1> Online Courses</h1>
+    </div>
+    <section class="online-courses">
+
+      <div class="online-box">
+        <img src="media/java.jpeg" alt="" >
+        <h2>java</h2>
+        <h3 class="price">Rs500</h3>
+        <a href="#Contact" class="btn started course-btn">Enroll now</a>
+        <div class="bottom-feature">
+          <div class="info">
+              <h3> <i class="far fa-clock"></i>2 hours </h3>
+              <h3> <i class="far fa-calendar-alt"></i>4 Months </h3>
+              <h3> <i class="far fa-book"></i> 12 Module</h3>
+          </div>
+        </div>
+      </div>
+          
+
+
+
+
+      <div class="online-box">
+        <img src="media/c (2).jpeg" alt="" >
+        <h2>C</h2>
+        <h3 class="price">Rs800</h3>
+        <a href="#Contact" class="btn started course-btn">Enroll now</a>
+        <div class="bottom-feature">
+          <div class="info">
+            <h3> <i class="far fa-clock"></i>2 hours </h3>
+            <h3> <i class="far fa-calendar-alt"></i>5 Months </h3>
+            <h3> <i class="far fa-book"></i> 15 Module</h3> 
+          </div>
+        </div>
+      </div>
+
+      <div class="online-box">
+        <img src="media/javascript.jpeg" alt="" >
+        <h2>javascript</h2>
+        <h3 class="price">Rs600</h3>
+        <a href="#Contact" class="btn started course-btn">Enroll now</a>
+        <div class="bottom-feature">
+          <div class="info">
+            <h3> <i class="far fa-clock"></i>1 hours </h3>
+            <h3> <i class="far fa-calendar-alt"></i>3  Months </h3>
+            <h3> <i class="far fa-book"></i> 10 Module</h3> 
+          </div>
+        </div>
+      </div>
+            
+
+      <div class="online-box">
+        <img src="media/php.jpeg" alt="" >
+        <h2>php</h2>
+        <h3 class="price">Rs500</h3>
+        <a href="#Contact" class="btn started course-btn">Enroll now</a>
+        <div class="bottom-feature">
+          <div class="info">
+            <h3> <i class="far fa-clock"></i>2 hours </h3>
+            <h3> <i class="far fa-calendar-alt"></i>4  Months </h3>
+            <h3> <i class="far fa-book"></i> 12 Module</h3>  
+          </div>
+        </div>
+      </div>
+
+      <div class="online-box"> 
+        <img src="media/C ++.jpeg" alt="" >
+        <h2>C++</h2>
+        <h3 class="price">Rs600</h3>
+        <a href="#Contact" class="btn started course-btn">Enroll now</a>
+        <div class="bottom-feature">
+          <div class="info">
+            <h3> <i class="far fa-clock"></i>3 hours </h3>
+            <h3> <i class="far fa-calendar-alt"></i>5 Months </h3>
+            <h3> <i class="far fa-book"></i> 16 Module</h3> 
+          </div>
+        </div>
+      </div>
+
+       <div class="online-box"> 
+        <img src="media/mysql .jpeg" alt="" >
+        <h2>mysql</h2>
+        <h3 class="price">Rs500</h3>
+        <a href="#Contact" class="btn started course-btn">Enroll now</a>
+        <div class="bottom-feature">
+          <div class="info">
+            <h3> <i class="far fa-clock"></i>2 hours </h3>
+            <h3> <i class="far fa-calendar-alt"></i>6 Months </h3>
+            <h3> <i class="far fa-book"></i> 20 Module</h3>  
+          </div>
+        </div>
+      </div> 
+
+      <div class="online-box"> 
+        <img src="media/html and css.jpeg" alt="" >
+        <h2>Html and Css</h2>
+        <h3 class="price">Rs400</h3>
+        <a href="#Contact" class="btn started course-btn">Enroll now</a>
+        <div class="bottom-feature">
+          <div class="info">
+            <h3> <i class="far fa-clock"></i>1 hours </h3>
+            <h3> <i class="far fa-calendar-alt"></i>5 Months </h3>
+            <h3> <i class="far fa-book"></i> 15 Module</h3>   
+          </div>
+        </div>
+      </div> 
+
+      <div class="online-box"> 
+        <img src="media/python.jpeg" alt="" >
+        <h2>python</h2>
+        <h3 class="price">Rs500</h3>
+        <a href="#Contact" class="btn started course-btn">Enroll now</a>
+        <div class="bottom-feature">
+          <div class="info">
+            <h3> <i class="far fa-clock"></i>3 hours </h3>
+            <h3> <i class="far fa-calendar-alt"></i>4 Months </h3>
+            <h3> <i class="far fa-book"></i> 12 Module</h3>  
+          </div>
+        </div>
+      </div> 
+
+    </section>
+    </div>
+   </div> 
+  <!-- course section ends  -->
+
+  <!-- contact Us section starts  -->
+
+  <div class="Contact" id="Contact">
+    <h1 class="heading">Contact Us</h1>
+    <div class="row">
+      <form action="">
+        <input type="text" placeholder="enter your name" class="box">
+        <input type="email" placeholder="enter your email" class="box">
+        <input type="password" placeholder="enter your password" class="box">
+        <input type="number" placeholder="enter your number" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="enter your address"></textarea>
+        <input type="submit" class="btn" value="send now">
+      </form>
+        <div class="image">
+          <img src="/media/contact us.jpeg" alt="">
+        </div>
+
+      </div>
+    </div>
+
+<!-- contact us section ends  -->
+
+
+<!-- Footer section starts  -->
+
+<div class="footer">
+   
+  <div class="box-container">
+    <div class="box"> 
+       <h2>Quick Links</h2>
+       <a href="#">Home</a>
+       <a href="#">About</a>
+       <a href="#">Course</a>
+       <a href="#">Contact</a>
+   </div>
+
+   <div class="box"> 
+    <h2>Branches</h2>
+    <a href="#">India</a>
+    <a href="#">Nepal</a>
+    <a href="#">China</a>
+    <a href="#">Russia</a>
+   </div>
+  </div>
+ 
+ <h4 class="credit">created by <a href="#">Jyoti Gupta</a></h4>
+
+</div>
+<!-- footer section ends        -->
+
+</body>
+</html> 
