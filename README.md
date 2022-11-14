@@ -2,8 +2,8 @@
 This is an education website.
 ## Udaan( Online Education Website)
 https://brave-field-06bc70510.2.azurestaticapps.net
-### Primary Azure Technology
-Azure Bot Service , static web Apps.
+### Azure Technology
+Static Web Apps , Azure Bot Services , Azure Cognitive Service , Custom Question Answering.
 ### This is home page of my website.
 ![home page](https://user-images.githubusercontent.com/89734710/201679258-aa47ae09-1c09-48e9-b8ee-21b08edd299e.png)
 ### This is about page of my website.
