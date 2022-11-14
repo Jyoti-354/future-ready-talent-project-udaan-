@@ -2,6 +2,8 @@
 This is an education website.
 ## Udaan( Online Education Website)
 https://brave-field-06bc70510.2.azurestaticapps.net
+### Primary Azure Technology
+Azure Bot Service , static web Apps.
 ### This is home page of my website.
 ![home page](https://user-images.githubusercontent.com/89734710/201679258-aa47ae09-1c09-48e9-b8ee-21b08edd299e.png)
 ### This is about page of my website.
@@ -10,7 +12,7 @@ https://brave-field-06bc70510.2.azurestaticapps.net
 ![online courses](https://user-images.githubusercontent.com/89734710/201680842-77c8e9bb-82ad-454b-afe7-9591140a7786.png)
 ### This is the contact page.
 ![contact us](https://user-images.githubusercontent.com/89734710/201680202-d42c1fa7-b70a-498a-aba5-b0f5554a4e7d.png)
-### This is the footer part of my website. here I created a bot using web bot service of azure.these are some screenshots of it.
+### This is the footer part of my website. here I created a bot using web bot service of azure. These are some screenshots of it.
 ![footer](https://user-images.githubusercontent.com/89734710/201680721-ebe14c09-4de9-4c33-9997-9187e02074ef.png)
 ![screenshot1](https://user-images.githubusercontent.com/89734710/201680974-8a749b18-e388-4485-94fb-d7f818f9d595.png)
 ![screenshot2](https://user-images.githubusercontent.com/89734710/201681078-6a8cf0d5-0e2c-4530-bcd8-454a6086e9c5.png)
